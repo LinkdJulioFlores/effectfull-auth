@@ -68,6 +68,7 @@ function App() {
         {loading && <p>Loading...</p>}
         {apiResponse && (
           <div
+            className="text-black"
             style={{
               padding: '10px',
               background: '#f0f0f0',
